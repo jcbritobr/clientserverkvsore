@@ -1,0 +1,21 @@
+POST http://localhost:8080/insert HTTP/1.1
+content-type: application/json
+
+{
+    "title":"second",
+    "description":"second",
+    "done": false
+}
+
+###
+
+GET http://localhost:8080/list HTTP/1.1
+
+###
+
+POST http://localhost:8080/doneundone HTTP/1.1
+content-type: application/json
+
+{
+    "uuid": "d36956ed-6ef2-412a-a5ae-efb0f8b2e0d4"
+}
