@@ -28,7 +28,7 @@ func sendRequest(protocol, url string, body io.Reader) (string, error) {
 	}
 
 	if body != nil {
-		req.Header.Add("ApplicationType", "text/json")
+		req.Header.Add("Content-Type", "application/json")
 	}
 
 	client := &http.Client{}
