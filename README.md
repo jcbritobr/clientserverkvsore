@@ -43,7 +43,7 @@ $ ./client -list
 
 * **Switch done field** - To switch the done field value in kvstore
 ```
-$ ./client -dud -data="{\"uuid\":\""uuid":"7536ed76-c169-4043-8106-a54592af9dcf"\"}"
+$ ./client -dud -data="{\"uuid\":\"7536ed76-c169-4043-8106-a54592af9dcf\"}"
 $ {"done":true}
 ```
 
